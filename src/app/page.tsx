@@ -12,14 +12,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <FirstBlock />
-      <CounterData />
-      <BestBusiness />
-      <ChooseYourCards />
-      <ControlBilling />
-      <Testimonials />
-      <PaymentsMethods />
-      <Footer />
+      
     </>
   )
 }

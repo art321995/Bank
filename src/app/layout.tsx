@@ -5,8 +5,8 @@ import { Poppins } from 'next/font/google'
 const popinsFont = Poppins({ weight: ['400', '600', '700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bank Website | TarreDev 💸 ',
-  description: 'Follow me for more!',
+  title: 'Bank Website | Arthur Dev 💸 ',
+  description: 'Sitio Web de un Banco',
 }
 
 export default function RootLayout({
