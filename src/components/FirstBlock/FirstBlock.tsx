@@ -18,14 +18,14 @@ export function FirstBlock() {
                             <span className="block degradedBlue bg-blueLight">
                                 banco digital
                             </span>
-                            para todos
+                            para todos.
                         </h1>
                     </Reveal>
                     <Reveal>
-                        <p className="max-w-md mt-10">Nuestro equipo de expertos utiliza una metodología
-                            para identificar las tarjetas de crédito que probablemente
-                            se ajusten a sus necesidades. Examinamos tasas
-                            porcentuales anuales, tarifas anuales.</p>
+                        <p className="max-w-md mt-10">Nuestro equipo de expertos utiliza una metodología para identificar 
+                            las tarjetas de crédito que probablemente se ajusten a sus necesidades. Examinamos tasas
+                            porcentuales anuales, tarifas anuales.
+                        </p>
                     </Reveal>
                     <Reveal>
                         <div className="my-8">
