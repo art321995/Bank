@@ -6,7 +6,7 @@ export const dataFeaturesBusiness: BestBusinessData = [
     icon: "rewards",
     title: "Recompensas",
     description:
-      "Las mejores tarjetas de crédito ofrecen algunas combinaciones tentadoras de promociones y premios.",
+      "Las mejores tarjetas de crédito ofrecen algunas combinaciones de promociones, premios y cashback.",
   },
   {
     id: 2,
