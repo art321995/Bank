@@ -5,6 +5,7 @@ import { ControlBilling } from "@/components/ControlBilling";
 import { CounterData } from "@/components/CounterData";
 import { FirstBlock } from "@/components/FirstBlock";
 import { Header } from "@/components/Header";
+import { PaymentsMethods } from "@/components/PaymentsMethods";
 import { Testimonials } from "@/components/Testimonials";
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       <ChooseYourCards />
       <ControlBilling />
       <Testimonials/>
+      <PaymentsMethods/>
     </>
   )
 }

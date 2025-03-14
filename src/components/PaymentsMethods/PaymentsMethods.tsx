@@ -24,12 +24,12 @@ export function PaymentsMethods() {
                     }}
                     grabCursor={true}
                     loop={true}
-                    speed={2000}
+                    speed={1500}
                 >
                     <div className="absolute flex">
                         {dataPaymentMethods.map(({ id, image }) => (
                             <SwiperSlide key={id} className="flex items-center slider-horizontal">
-                                <Image src={`/assets/${image}`} alt="Payment" width="70" height="70" className="h-[60px] w-[120px] object-contain" />
+                                <Image src={`/assets/${image}`} alt="Payment" width="90" height="90" className="h-[60px] w-[120px] object-contain" />
                             </SwiperSlide>
                         ))}
                     </div>

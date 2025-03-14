@@ -12,7 +12,7 @@ export function CtaDark() {
                             <h3 className="text-3xl font-bold">Ven a probar nuestros servicios</h3>
                         </Reveal>
                         <Reveal>
-                            <p>Todo lo que necesitas para aceptar pagos con tarjeta y haga crecer su negocio en cualquier parte del planeta</p>
+                            <p className="py-4">Todo lo que necesitas para aceptar pagos con tarjeta y haz crecer tu negocio en cualquier parte del mundo.</p>
                         </Reveal>
                     </div>
 
