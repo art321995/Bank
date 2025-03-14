@@ -15,12 +15,12 @@ export function ControlBilling() {
                     <Reveal>
                         <h2 className="text-5xl font-semibold">
                             Controla fácilmente <br />
-                            tu facturación
+                            tu Dinero.
                         </h2>
                     </Reveal>
                     <Reveal>
                         <p className="max-w-md mt-10">Con la tarjeta de crédito adecuada, puede mejorar su vida
-                            financiera generando crédito, obteniendo recompensas y
+                            financiera generando crédito, obteniendo recompensas, Cashback y
                             ahorrando dinero. Pero con cientos de tarjetas de crédito en
                             el mercado.</p>
                     </Reveal>
