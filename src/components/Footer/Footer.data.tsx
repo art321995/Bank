@@ -1,4 +1,5 @@
-import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
+import { RiGithubFill, RiInstagramLine, RiLinkedinBoxFill } from "react-icons/ri";
+import { SiNetlify } from "react-icons/si";
 
 export const footerData = [
   {
@@ -84,22 +85,17 @@ export const footerData = [
 export const footerSocialNetworks = [
   {
     id: 1,
-    icon: <RiInstagramLine />,
-    link: "#"
+    icon: <SiNetlify />,
+    link: "https://app.netlify.com/teams/art321995"
   },
   {
     id: 2,
-    icon: <RiFacebookCircleFill />,
-    link: "#"
+    icon: <RiGithubFill />,
+    link: "https://github.com/art321995"
   },
   {
     id: 3,
-    icon: <RiTwitterXFill />,
-    link: "#"
-  },
-  {
-    id: 4,
     icon: <RiLinkedinBoxFill />,
-    link: "#"
+    link: "https://www.linkedin.com/in/arturo-esqueda-morales-3feb1995"
   },
 ];

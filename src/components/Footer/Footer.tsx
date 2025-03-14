@@ -11,7 +11,7 @@ export function Footer() {
                 <div>
                     <Image src="/assets/logo.png" width={200} height={40} alt="Logo Bank" />
                     <Reveal>
-                        <p className="mt-5 text-primaryDark max-w-[250px]">Una nueva forma de hacer pagos de forma sencilla</p>
+                        <p className="mt-5 text-primaryDark max-w-[250px]">Una nueva forma de hacer pagos sencillamente</p>
                     </Reveal>
                 </div>
                 {footerData.map(({ id, title, links }) => (
@@ -33,18 +33,18 @@ export function Footer() {
             <div className="items-center justify-between md:flex">
                 <div className="my-3">
                     <Reveal>
-                        2023 Boras Bank. All Rights Reserved.
+                        2025 Boras Bank. All Rights Reserved.
                     </Reveal>
                 </div>
-                <div className="flex gap-5">
+                <div className="flex gap-5 ">
                     {footerSocialNetworks.map(({ id, icon, link }) => (
-                        <Link key={id} href={link} className="text-2xl">
+                        <Link key={id} href={link} className="text-2xl hover:text-primaryDark">
                             {icon}
                         </Link>
                     ))}
                 </div>
             </div>
-
+            <p className="items-center text-center">Created By Arturo Esqueda</p>
         </div>
     )
 } 
